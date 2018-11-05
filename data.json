@@ -1,0 +1,102 @@
+{
+  "name": "Crypto Startup Taxonomy",
+  "children": [{
+    "name": "Custody",
+    "children": [{
+      "name": "Web Wallets",
+      "size": 5000,
+      "children": [
+        {
+          "name": "MetaMask",
+          "size": 1000
+        }, {
+          "name": "MyEtherWallet",
+          "size": 1000
+        }
+      ]
+    },{
+      "name": "Mobile Wallets",
+      "size": 5000,
+      "children": [
+        {
+          "name": "Coinomi",
+          "size": 1000
+        }
+      ]
+    },{
+      "name": "Hard Wallets",
+      "size": 5000,
+      "children": [
+        {
+          "name": "Ledger",
+          "size": 1000
+        },{
+          "name": "Trezor",
+          "size": 1000
+        }
+      ]
+    },{
+      "name": "Cold Storage",
+      "size": 5000,
+      "children": [
+        {
+          "name": "Xapo",
+          "size": 1000
+        }
+      ]
+    }]
+  }, {
+    "name": "Commerce",
+    "children": [
+      {
+        "name": "Real Estate",
+        "size": 5000,
+        "children": [{
+          "name": "Imbrex",
+          "size": 1000
+        },{
+          "name": "Propy",
+          "size": 1000
+        },{
+          "name": "Baya",
+          "size": 1000
+        }]
+      },{
+        "name": "P2P",
+        "size": 5000,
+        "children": [{
+          "name": "OpenBazaar",
+          "size": 1000
+        }]
+      }
+    ]
+  }, {
+    "name": "Infrastructure",
+    "children": [
+      {
+        "name": "Blockchain Protocols",
+        "size": 5000,
+        "children": [{
+          "name": "Ethereum",
+          "size": 1000
+        },{
+          "name": "Cardano",
+          "size": 1000
+        },{
+          "name": "NEO",
+          "size": 1000
+        },{
+          "name": "EOS",
+          "size": 1000
+        }]
+      },{
+        "name": "Other\nStuff",
+        "size": 5000,
+        "children": [{
+          "name": "A Special Thing",
+          "size": 1000
+        }]
+      }
+    ]
+  }]
+}
