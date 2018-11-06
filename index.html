@@ -96,8 +96,13 @@
       const newSlice = slice.enter()
         .append('g').attr('class', 'slice')
         .on('click', d => {
-          d3.event.stopPropagation();
-          focusOn(d);
+          if (d.children && d.children.length > 0) {
+            d3.event.stopPropagation();
+            focusOn(d);
+          } else if (d.data && d.data.url) {
+            d3.event.stopPropagation();
+            window.open(d.data.url);
+          }
         });
 
       newSlice.append('title')

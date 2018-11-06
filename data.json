@@ -8,7 +8,8 @@
       "children": [
         {
           "name": "MetaMask",
-          "size": 1000
+          "size": 1000,
+          "url": "https://metamask.io/"
         }, {
           "name": "MyEtherWallet",
           "size": 1000
