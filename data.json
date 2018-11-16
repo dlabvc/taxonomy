@@ -1,103 +1,1063 @@
 {
-  "name": "Crypto Startup Taxonomy",
-  "children": [{
-    "name": "Custody",
-    "children": [{
-      "name": "Web Wallets",
-      "size": 5000,
-      "children": [
-        {
-          "name": "MetaMask",
-          "size": 1000,
-          "url": "https://metamask.io/"
-        }, {
-          "name": "MyEtherWallet",
-          "size": 1000
-        }
-      ]
-    },{
-      "name": "Mobile Wallets",
-      "size": 5000,
-      "children": [
-        {
-          "name": "Coinomi",
-          "size": 1000
-        }
-      ]
-    },{
-      "name": "Hard Wallets",
-      "size": 5000,
-      "children": [
-        {
-          "name": "Ledger",
-          "size": 1000
-        },{
-          "name": "Trezor",
-          "size": 1000
-        }
-      ]
-    },{
-      "name": "Cold Storage",
-      "size": 5000,
-      "children": [
-        {
-          "name": "Xapo",
-          "size": 1000
-        }
-      ]
-    }]
-  }, {
-    "name": "Commerce",
-    "children": [
-      {
-        "name": "Real Estate",
-        "size": 5000,
-        "children": [{
-          "name": "Imbrex",
-          "size": 1000
-        },{
-          "name": "Propy",
-          "size": 1000
-        },{
-          "name": "Baya",
-          "size": 1000
-        }]
-      },{
-        "name": "P2P",
-        "size": 5000,
-        "children": [{
-          "name": "OpenBazaar",
-          "size": 1000
-        }]
-      }
-    ]
-  }, {
-    "name": "Infrastructure",
-    "children": [
-      {
-        "name": "Blockchain Protocols",
-        "size": 5000,
-        "children": [{
-          "name": "Ethereum",
-          "size": 1000
-        },{
-          "name": "Cardano",
-          "size": 1000
-        },{
-          "name": "NEO",
-          "size": 1000
-        },{
-          "name": "EOS",
-          "size": 1000
-        }]
-      },{
-        "name": "Other\nStuff",
-        "size": 5000,
-        "children": [{
-          "name": "A Special Thing",
-          "size": 1000
-        }]
-      }
-    ]
-  }]
+	"name": "Blockchain & Crypto Startup Taxonomy",
+	"children": [{
+		"name": "Transactions & Payment Services",
+		"children": [{
+			"name": "Custody",
+			"children": [{
+				"name": "Web Wallets",
+				"size": 3000,
+				"children": [{
+					"name": "MetaMask",
+					"size": 1500,
+					"url": "https://metamask.io/"
+				}, {
+					"name": "MyEtherWallet",
+					"size": 1500,
+					"url": "https://www.myetherwallet.com/"
+				}, {
+					"name": "Atomic",
+					"size": 1500,
+					"url": "https://atomicwallet.io/"
+				}]
+			}, {
+				"name": "Mobile Wallets",
+				"size": 3000,
+				"children": [{
+					"name": "Coinomi",
+					"size": 1500,
+					"url": "https://www.coinomi.com/"
+				}, {
+					"name": "MyCelium",
+					"size": 1500,
+					"url": "https://wallet.mycelium.com/"
+				}, {
+					"name": "BRD",
+					"size": 1500,
+					"url": "https://brd.com/"
+				}]
+			}, {
+				"name": "Hard Wallets",
+				"size": 3000,
+				"children": [{
+					"name": "Ledger",
+					"size": 1500,
+					"url": "https://www.ledger.com/"
+				}, {
+					"name": "Trezor",
+					"size": 1500,
+					"url": "https://trezor.io/"
+				}, {
+					"name": "Keepkey",
+					"size": 1500,
+					"url": "https://www.keepkey.com/"
+				}]
+			}, {
+				"name": "Cold Storage",
+				"size": 3000,
+				"children": [{
+					"name": "Xapo",
+					"size": 1500,
+					"url": "https://xapo.com/"
+				}, {
+					"name": "BitGo",
+					"size": 1500,
+					"url": "https://www.bitgo.com/info/"
+				}]
+			}]
+		}, {
+			"name": "Trading Platforms",
+			"children": [{
+				"name": "Coinsquare",
+				"size": 1500,
+				"url": "https://coinsquare.com/"
+			}, {
+				"name": "Kraken",
+				"size": 1500,
+				"url": "https://www.kraken.com/"
+			}, {
+				"name": "CoinMama",
+				"size": 1500,
+				"url": "https://www.coinmama.com/"
+			}]
+		}, {
+			"name": "Merchant Transactions",
+			"children": [{
+				"name": "Coinify",
+				"size": 1000,
+				"url": "https://coinify.com/"
+			}, {
+				"name": "Bitpay",
+				"size": 1000,
+				"url": "https://bitpay.com/"
+			}, {
+				"name": "POSaBIT",
+				"size": 1000,
+				"url": "https://www.posabit.com/"
+			}]
+		}, {
+			"name": "DEX",
+			"children": [{
+				"name": "bitshares",
+				"size": 1000,
+				"url": "https://bitshares.org/"
+			}, {
+				"name": "counterparty",
+				"size": 1000,
+				"url": "https://counterparty.io/"
+			}, {
+				"name": "RadarRelay",
+				"size": 1000,
+				"url": "https://radarrelay.com/"
+			}]
+		}, {
+			"name": "P2P Lending",
+			"children": [{
+				"name": "Bitbond",
+				"size": 1000,
+				"url": "https://www.bitbond.com/"
+			}, {
+				"name": "ETHLend",
+				"size": 1000,
+				"url": "https://ethlend.io/#/main"
+			}, {
+				"name": "RCN",
+				"size": 1000,
+				"url": "https://ripiocredit.network/"
+			}, {
+				"name": "SALT",
+				"size": 1000,
+				"url": "https://saltlending.com/"
+			}]
+		}, {
+			"name": "Investments",
+			"children": [{
+				"name": "GrayScale",
+				"size": 1000,
+				"url": "https://grayscale.co/"
+			}, {
+				"name": "eToro",
+				"size": 1000,
+				"url": "https://www.etoro.com/en-us/"
+			}, {
+				"name": "motif",
+				"size": 1000,
+				"url": "https://www.motif.com/"
+			}]
+		}, {
+			"name": "Microtransactions",
+			"children": [{
+				"name": "Protip",
+				"size": 1000,
+				"url": "http://protip.is/"
+			}, {
+				"name": "BitWall",
+				"size": 1000,
+				"url": "http://get.watchout.world/bitwall/"
+			}]
+		}, {
+			"name": "Infrastructure",
+			"children": [{
+				"name": "GrayScale",
+				"size": 1000,
+				"url": "https://grayscale.co/"
+			}, {
+				"name": "eToro",
+				"size": 1000,
+				"url": "https://www.etoro.com/en-us/"
+			}, {
+				"name": "motif",
+				"size": 1000,
+				"url": "https://www.motif.com/"
+			}]
+		}, {
+			"name": "Compliance",
+			"children": [{
+				"name": "CHAINALYSIS",
+				"size": 1000,
+				"url": "https://www.chainalysis.com/"
+			}, {
+				"name": "PROTUS",
+				"size": 1000,
+				"url": "http://iprotus.com/"
+			}]
+		}, {
+			"name": "KYC",
+			"children": [{
+				"name": "ShoCard",
+				"size": 1000,
+				"url": "https://shocard.com/"
+			}, {
+				"name": "norbloc",
+				"size": 1000,
+				"url": "https://www.norbloc.com/"
+			}, {
+				"name": "Crypto Kabn",
+				"size": 1000,
+				"url": "https://cryptokabn.com/"
+			}, {
+				"name": "norbloc",
+				"size": 1000,
+				"url": "https://www.norbloc.com/"
+			}, {
+				"name": "norbloc",
+				"size": 1000,
+				"url": "https://www.norbloc.com/"
+			}]
+		}]
+	}, {
+		"name": "Sovereignty",
+		"children": [{
+			"name": "Identity",
+			"size": 5000,
+			"children": [{
+				"name": "evernym",
+				"size": 1000,
+				"url": "https://www.evernym.com/"
+			}, {
+				"name": "uport",
+				"size": 1000,
+				"url": "https://www.uport.me/"
+			}, {
+				"name": "CRYPTID",
+				"size": 1000,
+				"url": "https://cryptid.xyz/"
+			}]
+		}, {
+			"name": "Governance",
+			"size": 5000,
+			"children": [{
+				"name": "Aragon",
+				"size": 1000,
+				"url": "https://aragon.org/"
+			}, {
+				"name": "deCRED",
+				"size": 1000,
+				"url": "https://www.decred.org/"
+			}, {
+				"name": "COLONY",
+				"size": 1000,
+				"url": "https://colony.io/"
+			}, {
+				"name": "BACKFEED",
+				"size": 1000,
+				"url": "http://backfeed.cc/"
+			}]
+		}, {
+			"name": "Data Protection",
+			"size": 5000,
+			"children": [{
+				"name": "LogSentinel",
+				"size": 1000,
+				"url": "https://logsentinel.com/"
+			}, {
+				"name": "Gladius",
+				"size": 1000,
+				"url": "https://gladius.io/"
+			}]
+		}, {
+			"name": "VPN",
+			"size": 5000,
+			"children": [{
+				"name": "Mysterium Network",
+				"size": 1000,
+				"url": "https://mysterium.network/"
+			}, {
+				"name": "Privatix",
+				"size": 1000,
+				"url": "https://privatix.io/"
+			}, {
+				"name": "Sentinel",
+				"size": 1000,
+				"url": "https://sentinel.co/"
+			}]
+		}, {
+			"name": "Communcation",
+			"size": 5000,
+			"children": [{
+				"name": "Mercury Protocol",
+				"size": 1000,
+				"url": "https://www.mercuryprotocol.com/"
+			}, {
+				"name": "KiK",
+				"size": 1000,
+				"url": "https://www.kik.com/"
+			}]
+		}, {
+			"name": "Fraud Protection",
+			"size": 5000,
+			"children": [{
+				"name": "Elliptic",
+				"size": 1000,
+				"url": "https://www.elliptic.co/"
+			}, {
+				"name": "Factom",
+				"size": 1000,
+				"url": "https://www.factom.com/"
+			}, {
+				"name": "Orchid",
+				"size": 1000,
+				"url": "https://www.orchid.com/"
+			}]
+		}, {
+			"name": "Trust/Reputation Systems",
+			"size": 5000,
+			"children": [{
+				"name": "Bloom",
+				"size": 1000,
+				"url": "https://bloom.co/"
+			}, {
+				"name": "Bitrated",
+				"size": 1000,
+				"url": "https://www.bitrated.com/"
+			}, {
+				"name": "Verify",
+				"size": 1000,
+				"url": "https://verif-y.com/"
+			}]
+		}]
+	}, {
+		"name": "Commerce",
+		"children": [{
+			"name": "Real Estate",
+			"size": 5000,
+			"children": [{
+				"name": "imbrex",
+				"size": 1000,
+				"url": "https://imbrex.io/#!/"
+			}, {
+				"name": "propy",
+				"size": 1000,
+				"url": "https://propy.com/"
+			}, {
+				"name": "Baya",
+				"size": 1000,
+				"url": "https://baya.io/"
+			}, {
+				"name": "ubitquity",
+				"size": 1000,
+				"url": "https://www.ubitquity.io/web/index.html"
+			}]
+		}, {
+			"name": "P2P",
+			"size": 5000,
+			"children": [{
+				"name": "OpenBazaar",
+				"size": 1000,
+				"url": "https://openbazaar.org/"
+			}, {
+				"name": "TradeStuff",
+				"size": 1000,
+				"url": "https://www.tradestuff.com/"
+			}]
+		}, {
+			"name": "E-commerce",
+			"size": 5000,
+			"children": [{
+				"name": "TIPO",
+				"size": 1000,
+				"url": "https://thetipo.io/"
+			}, {
+				"name": "ECoinmerce",
+				"size": 1000,
+				"url": "https://www.ecoinmerce.io/"
+			}]
+		}, {
+			"name": "dMarketplaces",
+			"size": 5000,
+			"children": [{
+				"name": "CanYa",
+				"size": 1000,
+				"url": "https://canya.io/"
+			}, {
+				"name": "enfavr",
+				"size": 1000,
+				"url": "http://enfavr.com/enfavr/"
+			}, {
+				"name": "OpenSea",
+				"size": 1000,
+				"url": "https://opensea.io/"
+			}]
+		}, {
+			"name": "Advertising",
+			"size": 5000,
+			"children": [{
+				"name": "AdEx",
+				"size": 1000,
+				"url": "https://www.adex.network/"
+			}, {
+				"name": "Qchain",
+				"size": 1000,
+				"url": "https://qchain.co/"
+			}, {
+				"name": "AdBank",
+				"size": 1000,
+				"url": "https://adbank.network/"
+			}, {
+				"name": "AdChain",
+				"size": 1000,
+				"url": "https://publisher.adchain.com/"
+			}, {
+				"name": "BAT",
+				"size": 1000,
+				"url": "https://basicattentiontoken.org/"
+			}]
+		}, {
+			"name": "Prediction Markets",
+			"size": 5000,
+			"children": [{
+				"name": "Gnosis",
+				"size": 1000,
+				"url": "https://gnosis.pm/"
+			}, {
+				"name": "WINGS",
+				"size": 1000,
+				"url": "https://wingsfoundation.ch/"
+			}, {
+				"name": "Bodhi",
+				"size": 1000,
+				"url": "https://www.bodhi.network/"
+			}]
+		}]
+	}, {
+		"name": "Infrastructure",
+		"children": [{
+			"name": "Blockchain Protocols",
+			"size": 4000,
+			"children": [{
+				"name": "Ethereum",
+				"size": 1000,
+				"url": "https://www.ethereum.org/"
+			}, {
+				"name": "Cardano",
+				"size": 1000,
+				"url": "https://www.cardano.org/en/home/"
+			}, {
+				"name": "Stellar",
+				"size": 1000,
+				"url": "https://www.stellar.org/"
+			}, {
+				"name": "EOS",
+				"size": 1000,
+				"url": "https://eos.io/"
+			}, {
+				"name": "Qtum",
+				"size": 1000,
+				"url": "https://qtum.org/en/"
+			}]
+		}, {
+			"name": "DAG Protocols",
+			"size": 5000,
+			"children": [{
+				"name": "Byteball",
+				"size": 1000,
+				"url": "https://byteball.org/"
+			}, {
+				"name": "Phantom",
+				"size": 1000,
+				"url": "https://phantom.org/"
+			}, {
+				"name": "GHOSTDAG",
+				"size": 1000
+			}]
+		}, {
+			"name": "Scaling",
+			"size": 3000,
+			"children": [{
+				"name": "Raiden",
+				"size": 1000,
+				"url": "https://raiden.network/"
+			}, {
+				"name": "Tierion",
+				"size": 1000,
+				"url": "https://tierion.com/"
+			}]
+		}, {
+			"name": "Governance",
+			"size": 3000,
+			"children": [{
+				"name": "0x",
+				"size": 1000,
+				"url": "https://0xproject.com/"
+			}, {
+				"name": "Qubit",
+				"size": 1000,
+				"url": "https://www.qubitprotocol.com/"
+			}]
+		}, {
+			"name": "Security",
+			"size": 3000,
+			"children": [{
+				"name": "Zeppelin",
+				"size": 1000,
+				"url": "https://zeppelin.solutions/"
+			}, {
+				"name": "Quantstamp",
+				"size": 1000,
+				"url": "https://quantstamp.com/"
+			}]
+		}, {
+			"name": "Interoperability",
+			"size": 3000,
+			"children": [{
+				"name": "district0x",
+				"size": 1000,
+				"url": "https://district0x.io/"
+			}, {
+				"name": "Wax",
+				"size": 1000,
+				"url": "https://wax.io/"
+			}]
+		}, {
+			"name": "IoT",
+			"size": 3000,
+			"children": [{
+				"name": "IOTA",
+				"size": 1000,
+				"url": "https://www.iota.org/"
+			}, {
+				"name": "Chain of Things",
+				"size": 1000,
+				"url": "https://www.chainofthings.com/"
+			}]
+		}]
+	}, {
+		"name": "Trust, Data & Integrity",
+		"children": [{
+			"name": "SCM",
+			"size": 4000,
+			"children": [{
+				"name": "Filament",
+				"size": 1000,
+				"url": "https://filament.com/"
+			}, {
+				"name": "Blockfreight",
+				"size": 1000,
+				"url": "https://blockfreight.com/"
+			}, {
+				"name": "Skuchain",
+				"size": 1000,
+				"url": "http://www.skuchain.com/"
+			}, {
+				"name": "Shipchain",
+				"size": 1000,
+				"url": "https://shipchain.io/"
+			}]
+		}, {
+			"name": "Healthcare",
+			"size": 5000,
+			"children": [{
+				"name": "Patient Records",
+				"size": 1000,
+				"children": [{
+					"name": "MedicalChain",
+					"size": 1000,
+					"url": "https://medicalchain.com/en/"
+				}, {
+					"name": "MedRec",
+					"size": 1000,
+					"url": "https://medrec.media.mit.edu/"
+				}, {
+					"name": "patientory",
+					"size": 1000,
+					"url": "https://patientory.com/"
+				}, {
+					"name": "IRYO",
+					"size": 1000,
+					"url": "https://iryo.io/"
+				}]
+			}, {
+				"name": "Data Infrastructure",
+				"size": 1000,
+				"children": [{
+					"name": "Hashed Health",
+					"size": 1000,
+					"url": "https://hashedhealth.com/"
+				}, {
+					"name": "pokitdok",
+					"size": 1000,
+					"url": "https://pokitdok.com/"
+				}, {
+					"name": "DeepMind Health",
+					"size": 1000,
+					"url": "https://deepmind.com/applied/deepmind-health/"
+				}]
+			}, {
+				"name": "Drug Tracking",
+				"size": 1000,
+				"children": [{
+					"name": "Farma Trust",
+					"size": 1000,
+					"url": "https://www.farmatrust.com/"
+				}, {
+					"name": "Block Pharma",
+					"size": 1000,
+					"url": "https://www.blockpharma.com/"
+				}]
+			}, {
+				"name": "Digital Care/Medicine",
+				"size": 1000,
+				"children": [{
+					"name": "PointNurse",
+					"size": 1000,
+					"url": "https://www.pointnurse.com/"
+				}, {
+					"name": "BowHead",
+					"size": 1000,
+					"url": "https://www.bowheadhealth.com/"
+				}]
+			}, {
+				"name": "Analytics",
+				"size": 1000,
+				"children": [{
+					"name": "doc.ai",
+					"size": 1000,
+					"url": "https://doc.ai/"
+				}, {
+					"name": "OpenMined",
+					"size": 1000,
+					"url": "https://www.openmined.org/"
+				}, {
+					"name": "Astri",
+					"size": 1000,
+					"url": "https://www.astri.org/"
+				}]
+			}]
+		}, {
+			"name": "Insurance",
+			"size": 3000,
+			"children": [{
+				"name": "Lemonade",
+				"size": 1000,
+				"url": "https://www.lemonade.com/"
+			}, {
+				"name": "teambrella",
+				"size": 1000,
+				"url": "https://teambrella.com/"
+			}, {
+				"name": "AI Gang",
+				"size": 1000,
+				"url": "https://aigang.network/"
+			}]
+		}, {
+			"name": "Enterprise",
+			"size": 3000,
+			"children": [{
+				"name": "Gospel",
+				"size": 1000,
+				"url": "https://gospel.tech/"
+			}, {
+				"name": "Everledger",
+				"size": 1000,
+				"url": "https://www.everledger.io/"
+			}, {
+				"name": "Hacken",
+				"size": 1000,
+				"url": "https://hacken.io/"
+			}]
+		}]
+	}, {
+		"name": "Personal Data & Content Management",
+		"children": [{
+			"name": "Social Browsers",
+			"size": 4000,
+			"children": [{
+				"name": "Filament",
+				"size": 1000,
+				"url": "https://filament.com/"
+			}, {
+				"name": "Blockfreight",
+				"size": 1000,
+				"url": "https://blockfreight.com/"
+			}, {
+				"name": "Skuchain",
+				"size": 1000,
+				"url": "http://www.skuchain.com/"
+			}, {
+				"name": "Shipchain",
+				"size": 1000,
+				"url": "https://shipchain.io/"
+			}]
+		}, {
+			"name": "Content Management",
+			"size": 5000,
+			"children": [{
+				"name": "Video",
+				"size": 1000,
+				"children": [{
+					"name": "Steepshot",
+					"size": 1000,
+					"url": "https://steepshot.io/"
+				}, {
+					"name": "D Tube",
+					"size": 1000,
+					"url": "https://d.tube/"
+				}, {
+					"name": "Flixxo",
+					"size": 1000,
+					"url": "https://www.flixxo.com/"
+				}]
+			}, {
+				"name": "Music",
+				"size": 1000,
+				"children": [{
+					"name": "Choon",
+					"size": 1000,
+					"url": "https://choon.co/"
+				}, {
+					"name": "Ujo",
+					"size": 1000,
+					"url": "https://ujomusic.com/"
+				}, {
+					"name": "BitTunes",
+					"size": 1000,
+					"url": "http://www.bittunes.com/"
+				}]
+			}, {
+				"name": "General Content",
+				"size": 1000,
+				"children": [{
+					"name": "CIVIL",
+					"size": 1000,
+					"url": "https://civil.co/"
+				}, {
+					"name": "Steem",
+					"size": 1000,
+					"url": "https://steem.io/"
+				}, {
+					"name": "Synereo",
+					"size": 1000,
+					"url": "https://www.synereo.com/"
+				}, {
+					"name": "Steemit",
+					"size": 1000,
+					"url": "https://steemit.com/"
+				}, {
+					"name": "Akasha",
+					"size": 1000,
+					"url": "https://akasha.world/"
+				}]
+			}, {
+				"name": "Personal Data",
+				"size": 1000,
+				"children": [{
+					"name": "DataWallet",
+					"size": 1000,
+					"url": "https://datawallet.com/"
+				}, {
+					"name": "Wibson",
+					"size": 1000,
+					"url": "https://wibson.org/"
+				}, {
+					"name": "Alpha Browser",
+					"size": 1000,
+					"url": "http://atoken.org/"
+				}]
+			}]
+		}, {
+			"name": "Professional",
+			"size": 1000,
+			"children": [{
+				"name": "HireVibes",
+				"size": 1000,
+				"url": "https://www.hirevibes.io/"
+			}, {
+				"name": "Indorse",
+				"size": 1000,
+				"url": "https://indorse.io/"
+			}, {
+				"name": "bitJob",
+				"size": 1000,
+				"url": "https://bitjob.io/"
+			}]
+		}]
+	}, {
+		"name": "Developer Tools",
+		"children": [{
+			"name": "Smart Contracts",
+			"size": 4000,
+			"children": [{
+				"name": "Embark",
+				"size": 1000,
+				"url": "https://embark.status.im/"
+			}, {
+				"name": "Truffle",
+				"size": 1000,
+				"url": "https://truffleframework.com/"
+			}]
+		}, {
+			"name": "Oracles",
+			"size": 5000,
+			"children": [{
+				"name": "Oraclize",
+				"size": 1000,
+				"url": "http://www.oraclize.it/"
+			}, {
+				"name": "Augur",
+				"size": 1000,
+				"url": "https://www.augur.net/"
+			}, {
+				"name": "Chainlink",
+				"size": 1000,
+				"url": "https://chain.link/"
+			}]
+		}, {
+			"name": "Scaling",
+			"size": 5000,
+			"children": [{
+				"name": "TrueBit",
+				"size": 1000,
+				"url": "https://truebit.io/"
+			}, {
+				"name": "Lightning Network",
+				"size": 1000,
+				"url": "https://lightning.network/"
+			}]
+		}, {
+			"name": "Legal",
+			"size": 5000,
+			"children": [{
+				"name": "AGREllo",
+				"size": 1000,
+				"url": "https://www.agrello.org/"
+			}, {
+				"name": "CODELEGIT",
+				"size": 1000,
+				"url": "http://codelegit.com/"
+			}, {
+				"name": "mattereum",
+				"size": 1000,
+				"url": "https://www.mattereum.com/"
+			}]
+		}, {
+			"name": "Security",
+			"size": 1000,
+			"children": [{
+				"name": "Polyswarm",
+				"size": 1000,
+				"url": "https://polyswarm.io/"
+			}, {
+				"name": "BowHead",
+				"size": 1000,
+				"url": "https://www.bowheadhealth.com/"
+			}]
+		}, {
+			"name": "Interoperability",
+			"size": 1000,
+			"children": [{
+				"name": "doc.ai",
+				"size": 1000,
+				"url": "https://doc.ai/"
+			}, {
+				"name": "OpenMined",
+				"size": 1000,
+				"url": "https://www.openmined.org/"
+			}, {
+				"name": "Astri",
+				"size": 1000,
+				"url": "https://www.astri.org/"
+			}]
+		}, {
+			"name": "Privacy",
+			"size": 3000,
+			"children": [{
+				"name": "NUCYPHER",
+				"size": 1000,
+				"url": "https://www.nucypher.com/"
+			}, {
+				"name": "ROCKCHAIN",
+				"size": 1000,
+				"url": "https://rockchain.com/"
+			}]
+		}, {
+			"name": "Gaming",
+			"size": 3000,
+			"children": [{
+				"name": "KodeBox",
+				"size": 1000,
+				"url": "https://kodebox.io/"
+			}, {
+				"name": "Loomx.io",
+				"size": 1000,
+				"url": "https://loomx.io/"
+			}, {
+				"name": "alto.io",
+				"size": 1000,
+				"url": "https://alto.io/"
+			}]
+		}, {
+			"name": "dApps",
+			"size": 3000,
+			"children": [{
+				"name": "Blockchain Testnet",
+				"size": 1000
+			}, {
+				"name": "Web3.js",
+				"size": 1000,
+				"url": "https://web3js.readthedocs.io/en/1.0/"
+			}]
+		}]
+	}, {
+		"name": "Computation & Distributed Services",
+		"children": [{
+			"name": "File Storage",
+			"size": 4000,
+			"children": [{
+				"name": "Filecoin",
+				"size": 1000,
+				"url": "https://filecoin.io/"
+			}, {
+				"name": "Sia",
+				"size": 1000,
+				"url": "https://sia.tech/"
+			}, {
+				"name": "Storj",
+				"size": 1000,
+				"url": "https://storj.io/"
+			}, {
+				"name": "BigchainDB",
+				"size": 1000,
+				"url": "https://www.bigchaindb.com/"
+			}, {
+				"name": "IPFS",
+				"size": 1000,
+				"url": "https://www.ipfs.com/"
+			}]
+		}, {
+			"name": "Distributed Computation ",
+			"size": 4000,
+			"children": [{
+				"name": "Golem",
+				"size": 1000,
+				"url": "https://golem.network/"
+			}, {
+				"name": "enigma",
+				"size": 1000,
+				"url": "https://enigma.co/"
+			}, {
+				"name": "SONM",
+				"size": 1000,
+				"url": "https://sonm.com/"
+			}, {
+				"name": "DFINITY",
+				"size": 1000,
+				"url": "https://dfinity.org/"
+			}]
+		}]
+	}, {
+		"name": "Gaming",
+		"children": [{
+			"name": "Platforms",
+			"size": 4000,
+			"children": [{
+				"name": "BitGuild",
+				"size": 1000,
+				"url": "https://bitguild.io/"
+			}, {
+				"name": "EnjinCoin",
+				"size": 1000,
+				"url": "https://enjincoin.io/"
+			}, {
+				"name": "TheAbyss",
+				"size": 1000,
+				"url": "https://www.theabyss.com/"
+			}, {
+				"name": "SGChain",
+				"size": 1000,
+				"url": "https://www.sgchain.io/"
+			}, {
+				"name": "TokenPlay",
+				"size": 1000,
+				"url": "https://tokenplay.com/"
+			}]
+		}, {
+			"name": "Assets",
+			"size": 4000,
+			"children": [{
+				"name": "RareBits",
+				"size": 1000,
+				"url": "https://rarebits.io/"
+			}, {
+				"name": "GamerToken",
+				"size": 1000,
+				"url": "https://gamertoken.io/"
+			}, {
+				"name": "DMarket",
+				"size": 1000,
+				"url": "https://dmarket.io/"
+			}, {
+				"name": "Hoard",
+				"size": 1000,
+				"url": "https://www.hoard.exchange/"
+			}]
+		}, {
+			"name": "Marketplaces",
+			"size": 4000,
+			"children": [{
+				"name": "RobotCache",
+				"size": 1000,
+				"url": "https://www.robotcache.com/"
+			}, {
+				"name": "KorroBox",
+				"size": 1000,
+				"url": "https://korrobox.com/"
+			}, {
+				"name": "Ultra",
+				"size": 1000,
+				"url": "https://ultra.io/"
+			}]
+		}, {
+			"name": "Games/Crypto",
+			"size": 4000,
+			"children": [{
+				"name": "CryptoKitties",
+				"size": 1000,
+				"url": "https://www.cryptokitties.co/"
+			}, {
+				"name": "CryptoWars",
+				"size": 1000,
+				"url": "https://e11.io/"
+			}, {
+				"name": "Bitizens",
+				"size": 1000,
+				"url": "https://www.bitguild.com/bitizens-landing"
+			}]
+		}, {
+			"name": "E-betting",
+			"size": 4000,
+			"children": [{
+				"name": "Azarus",
+				"size": 1000,
+				"url": "https://azarus.io/#/landing"
+			}, {
+				"name": "Unikrn",
+				"size": 1000,
+				"url": "https://unikrn.com/"
+			}, {
+				"name": "Gimli",
+				"size": 1000,
+				"url": "https://gimli.io/"
+			}]
+		}, {
+			"name": "Unique",
+			"size": 4000,
+			"children": [{
+				"name": "SkinCoin",
+				"size": 1000,
+				"url": "https://skincoin.org/"
+			}, {
+				"name": "NITRO",
+				"size": 1000,
+				"url": "https://www.nitro.live/"
+			}, {
+				"name": "Bethereum",
+				"size": 1000,
+				"url": "https://bethereum.com/"
+			}, {
+				"name": "gameloot",
+				"size": 1000,
+				"url": "https://gamelootnetwork.com/platform"
+			}]
+		}]
+	}]
 }
