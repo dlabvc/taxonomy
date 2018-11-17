@@ -1,7 +1,7 @@
 {
 	"name": "Blockchain & Crypto Startup Taxonomy",
 	"children": [{
-		"name": "Transactions & Payment Services",
+		"name": "Transactions & Payments",
 		"children": [{
 			"name": "Custody",
 			"children": [{
@@ -523,6 +523,7 @@
 		}]
 	}, {
 		"name": "Trust, Data & Integrity",
+		"size": 20000,
 		"children": [{
 			"name": "SCM",
 			"size": 4000,
@@ -657,26 +658,15 @@
 			}]
 		}]
 	}, {
-		"name": "Personal Data & Content Management",
+		"name": "Personal Data & Content",
+		"size": 20000,
 		"children": [{
 			"name": "Social Browsers",
 			"size": 4000,
 			"children": [{
-				"name": "Filament",
+				"name": "Brave",
 				"size": 1000,
-				"url": "https://filament.com/"
-			}, {
-				"name": "Blockfreight",
-				"size": 1000,
-				"url": "https://blockfreight.com/"
-			}, {
-				"name": "Skuchain",
-				"size": 1000,
-				"url": "http://www.skuchain.com/"
-			}, {
-				"name": "Shipchain",
-				"size": 1000,
-				"url": "https://shipchain.io/"
+				"url": "https://brave.com/"
 			}]
 		}, {
 			"name": "Content Management",
@@ -898,7 +888,8 @@
 			}]
 		}]
 	}, {
-		"name": "Computation & Distributed Services",
+		"name": "Computation",
+		"size": 20000,
 		"children": [{
 			"name": "File Storage",
 			"size": 4000,
